@@ -1,0 +1,56 @@
+/**
+ * Custom Style Option Framework
+ */
+ 
+#optionsframework .section.section-info {
+	padding: 0;
+	margin: 30px 0 0;
+}
+#optionsframework .section.section-info h4 {
+	background: #f1f1f1;
+	font-size: 14px;
+	padding: 10px 10px;
+	margin: 0;
+}
+#optionsframework .section.section-info .desc {
+	padding: 10px 10px 0;
+}
+#optionsframework h3 {
+	padding: 10px;
+}
+#optionsframework .controls .of-radio-img-img {
+	padding: 5px;
+	max-width: 350px;
+}
+#optionsframework .controls .of-radio-img-selected {
+	border: 3px solid red;
+}
+#optionsframework .section.section-images .controls {
+	width: 100%;
+}
+
+.rtl #optionsframework .section .controls {
+	float: right;
+	padding-left: 2%;
+	padding-right: 0;
+}
+.rtl #optionsframework input.checkbox, .rtl #optionsframework input.of-radio {
+    margin: 0 0 5px 10px;
+    float: right;
+}
+.rtl #optionsframework .section .explain {
+    float: right;
+}
+.rtl #optionsframework .controls .of-radio-img-img {
+    margin: 0 0 10px 5px;
+    float: right;
+}
+.rtl #optionsframework .section-radio label, .rtl #optionsframework .section-multicheck label {
+    float: right;
+}
+.rtl #optionsframework .button-primary {
+    float: left;
+}
+.rtl #optionsframework .reset-button {
+    float: right;
+}
